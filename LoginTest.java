@@ -21,15 +21,15 @@ public class LoginTest {
 		// Create driver
 		switch (browser) {
 		case "chrome":
-			this.driver = new ChromeDriver();
+			driver = new ChromeDriver();
 			break;
 		case "firefox":
-			System.setProperty("webdriver.gecko.driver", "C:\\geckodriver-v0.34.0-win-aarch64\\geckodriver.exe");
+			
 			driver = new FirefoxDriver();
 			break;
 		default:
 			System.out.println("Do not know how to start " + browser + ", starting chrome instead");
-			this.driver = new ChromeDriver();
+			driver = new ChromeDriver();
 			break;
 		}
 
