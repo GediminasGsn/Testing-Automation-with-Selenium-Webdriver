@@ -33,8 +33,7 @@ public class LoginTest {
 			break;
 		}
 
-		// WebDriver driver = new ChromeDriver();
-		this.driver = new ChromeDriver();
+
 		System.out.println("Browser started");
 		// Maximize browser window
 		driver.manage().window().maximize();
