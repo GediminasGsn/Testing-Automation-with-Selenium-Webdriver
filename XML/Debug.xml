@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Debug" verbose="1">
+
+	<test name="ExeptionsTests">
+		<parameter name="browser" value="chrome"></parameter>
+
+		<classes>
+			<class name="com.herokuapp.theinternet.ExeptionsTests" />
+			<methods>
+				<include name="timeoutException"></include>
+			</methods>
+		</classes>
+	</test>
+
+
+
+</suite>
